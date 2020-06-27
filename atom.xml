@@ -2,20 +2,91 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LiJiayuan-Leo.github.io</id>
     <title>个人主页</title>
-    <updated>2020-06-27T12:56:32.623Z</updated>
+    <updated>2020-06-27T14:45:00.108Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LiJiayuan-Leo.github.io"/>
     <link rel="self" href="https://LiJiayuan-Leo.github.io/atom.xml"/>
-    <subtitle>暂无</subtitle>
+    <subtitle>弄着玩</subtitle>
     <logo>https://LiJiayuan-Leo.github.io/images/avatar.png</logo>
     <icon>https://LiJiayuan-Leo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 个人主页</rights>
+    <entry>
+        <title type="html"><![CDATA[C语言实现生命游戏]]></title>
+        <id>https://LiJiayuan-Leo.github.io/post/c-yu-yan-shi-xian-sheng-ming-you-xi/</id>
+        <link href="https://LiJiayuan-Leo.github.io/post/c-yu-yan-shi-xian-sheng-ming-you-xi/">
+        </link>
+        <updated>2020-06-27T14:32:58.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="百科">百科</h2>
+<p>生命游戏是英国数学家约翰·何顿·康威在1970年发明的细胞自动机。它最初于1970年10月在《科学美国人》杂志中马丁·葛登能（Martin Gardner，1914年11月21日－2010年5月22日。又译：马丁·加德纳）的“数学游戏”专栏出现。<br>
+<a href="https://baike.sogou.com/v9062794.htm?fromTitle=%E7%94%9F%E5%91%BD%E6%B8%B8%E6%88%8F">搜狗百科</a></p>
+<h2 id="规则">规则</h2>
+<ol>
+<li>如果一个细胞周围有3个细胞为生（一个细胞周围共有8个细胞），则该细胞为生（即该细胞若原先为死，则转为生，若原先为生，则保持不变）</li>
+<li>如果一个细胞周围有2个细胞为生，则该细胞的生死状态保持不变</li>
+<li>在其它情况下，该细胞为死</li>
+</ol>
+<h2 id="运行截图">运行截图</h2>
+<figure data-type="image" tabindex="1"><img src="https://LiJiayuan-Leo.github.io/post-images/1593268762423.jpg" alt="" loading="lazy"></figure>
+<h2 id="代码">代码</h2>
+<p>详见<a href="https://github.com/LiJiayuan-Leo/Game-of-life" title="生命游戏">github</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown使用测试]]></title>
+        <id>https://LiJiayuan-Leo.github.io/post/markdown-shi-yong-fang-fa/</id>
+        <link href="https://LiJiayuan-Leo.github.io/post/markdown-shi-yong-fang-fa/">
+        </link>
+        <updated>2020-06-27T13:19:45.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<p>……</p>
+<h6 id="六级标题">六级标题</h6>
+<h2 id="标题">标题</h2>
+<h1 id="标题-2">标题</h1>
+<p><em>斜体</em><br>
+<strong>粗体</strong><br>
+<em><strong>粗斜体</strong></em></p>
+<p><a href="http://www.bilibili.com" title="bilibili">哔哩哔哩</a><br>
+<a href="http://www.bilibili.com">http://www.bilibili.com</a></p>
+<p>图片<br>
+<img src="https://static.oschina.net/uploads/space/2016/1004/212258_zbyp_2308616.jpg" alt="必应" loading="lazy"></p>
+<p>代码块<br>
+<code>#include&lt;stdio.h&gt; int main() { return 0; }</code><br>
+代码区块<br>
+#include&lt;stdio.h&gt;<br>
+int main()<br>
+{<br>
+return 0;<br>
+}</p>
+<p><s>删除线</s></p>
+<p>两个空格+回车==换行</p>
+<p>表格</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Age</th>
+<th style="text-align:center">Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Leo</td>
+<td style="text-align:center">45</td>
+<td style="text-align:center">78</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://LiJiayuan-Leo.github.io/post/hello-gridea/</id>
         <link href="https://LiJiayuan-Leo.github.io/post/hello-gridea/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
+        <updated>2020-06-27T13:05:02.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 ]]></summary>
