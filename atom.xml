@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LiJiayuan-Leo.github.io</id>
     <title>个人主页</title>
-    <updated>2020-06-27T14:45:00.108Z</updated>
+    <updated>2020-06-28T09:39:52.386Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LiJiayuan-Leo.github.io"/>
     <link rel="self" href="https://LiJiayuan-Leo.github.io/atom.xml"/>
@@ -10,6 +10,68 @@
     <logo>https://LiJiayuan-Leo.github.io/images/avatar.png</logo>
     <icon>https://LiJiayuan-Leo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 个人主页</rights>
+    <entry>
+        <title type="html"><![CDATA[数据结构与算法-预备知识]]></title>
+        <id>https://LiJiayuan-Leo.github.io/post/shu-ju-jie-gou-yu-suan-fa-yu-bei-zhi-shi/</id>
+        <link href="https://LiJiayuan-Leo.github.io/post/shu-ju-jie-gou-yu-suan-fa-yu-bei-zhi-shi/">
+        </link>
+        <updated>2020-06-28T08:27:16.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="c语言内置计时器">C语言内置计时器</h2>
+<p>clock(): 捕捉从程序开始运行到clock()被调用时所耗费的时间。<br>
+单位：clock tick<br>
+常数：CLK_TCK: 机器时钟每秒钟所走的时钟打点数<br>
+示例：<br>
+<img src="https://LiJiayuan-Leo.github.io/post-images/1593333318579.jpg" alt="" loading="lazy"></p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="c语言内置计时器">C语言内置计时器</h2>
+<p>clock(): 捕捉从程序开始运行到clock()被调用时所耗费的时间。<br>
+单位：clock tick<br>
+常数：CLK_TCK: 机器时钟每秒钟所走的时钟打点数<br>
+示例：<br>
+<img src="https://LiJiayuan-Leo.github.io/post-images/1593333318579.jpg" alt="" loading="lazy"></p>
+<!-- more -->
+<h2 id="数据结构">数据结构</h2>
+<ul>
+<li>
+<p>数据的逻辑结构：指反映数据元素之间的逻辑关系的数据结构，其中的逻辑关系是指数据元素之间的前后件关系，而与他们在计算机中的存储位置无关。逻辑结构包括：</p>
+<ol>
+<li>集合<br>
+数据结构中的元素之间除了“同属一个集合” 的相互关系外，别无其他关系；</li>
+<li>线性结构<br>
+数据结构中的元素存在一对一的相互关系；</li>
+<li>树形结构<br>
+数据结构中的元素存在一对多的相互关系；</li>
+<li>图形结构<br>
+数据结构中的元素存在多对多的相互关系。</li>
+</ol>
+</li>
+<li>
+<p>数据的物理结构：指数据的逻辑结构在计算机存储空间的存放形式</p>
+</li>
+</ul>
+<!-- more -->
+<h2 id="算法">算法</h2>
+<p>空间复杂度：内存<br>
+时间复杂度：时间<br>
+关注算法的最坏复杂度：<br>
+<img src="https://LiJiayuan-Leo.github.io/post-images/1593334903997.jpg" alt="" loading="lazy"></p>
+<!-- more -->
+<h2 id="应用实例-最大子列和问题">应用实例 最大子列和问题</h2>
+<h3 id="算法1">算法1</h3>
+<p>复杂度：n^3<br>
+<img src="https://LiJiayuan-Leo.github.io/post-images/1593336152817.jpg" alt="" loading="lazy"></p>
+<h3 id="算法2">算法2</h3>
+<p>复杂度：n^2<br>
+<img src="https://LiJiayuan-Leo.github.io/post-images/1593336180355.jpg" alt="" loading="lazy"></p>
+<h3 id="算法3分而治之">算法3（分而治之）</h3>
+<p>复杂度：nlog(n)<br>
+<img src="https://LiJiayuan-Leo.github.io/post-images/1593336942597.jpg" alt="" loading="lazy"></p>
+<h3 id="算法4在线处理">算法4（在线处理）</h3>
+<p>在线是指即时处理<br>
+复杂度：n<br>
+<img src="https://LiJiayuan-Leo.github.io/post-images/1593336935750.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C语言实现生命游戏]]></title>
         <id>https://LiJiayuan-Leo.github.io/post/c-yu-yan-shi-xian-sheng-ming-you-xi/</id>
